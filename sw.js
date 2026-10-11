@@ -1,11 +1,12 @@
-const CACHE_NAME = 'metabolic-workout-v1';
+const CACHE_NAME = 'metabolic-workout-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
   './icon-192.png',
   './icon-512.png',
-  './initial_history.json'
+  './initial_history.json',
+  './exercise_images.json'
 ];
 
 self.addEventListener('install', event => {
