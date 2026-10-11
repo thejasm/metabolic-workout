@@ -1,0 +1,4100 @@
+{
+  "2026-07-01": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Elliptical",
+      "duration": 10,
+      "avg_hr": 115
+    },
+    "notes": "",
+    "total_sets": 16
+  },
+  "2026-07-02": {
+    "workout_name": "Lower A",
+    "exercises": {
+      "Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Leg Press": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Calf Raise": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Abdominal Crunch Machine": [
+        {
+          "set": 1,
+          "weight": 10,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 10,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 10,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Woodchops / Torso Rotations": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Incline Treadmill",
+      "duration": 10,
+      "avg_hr": 130
+    },
+    "notes": "",
+    "total_sets": 14
+  },
+  "2026-07-04": {
+    "workout_name": "Upper B",
+    "exercises": {
+      "Incline Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Chest-Supported Row Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pec Dec / Chest Fly Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Reverse Pec Dec / Rear Delt Fly": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Overhead Tricep Extension": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Incline Dumbbell or Machine Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Incline Treadmill",
+      "duration": 10,
+      "avg_hr": 130
+    },
+    "notes": "Shredded my triceps, back, and chest/shoulder tendon, lots of pain",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "High",
+    "adaptation_note": ""
+  },
+  "2026-07-05": {
+    "workout_name": "Active Recovery",
+    "exercises": {},
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "",
+    "total_sets": 0,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-07-06": {
+    "workout_name": "Lower B",
+    "exercises": {
+      "Leg Extension Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lying or Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Glute Press / Hip Thrust Machine": [
+        {
+          "set": 1,
+          "weight": 50,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 70,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 70,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Standing Calf Raise": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pallof Press (Cable)": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Elliptical",
+      "duration": 10,
+      "avg_hr": 150
+    },
+    "notes": "Left shoulder just above armpit muscles still sore from Thursday, these exercises are too light I think, could use 1 or 2 more exercises. ",
+    "total_sets": 15,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-07-07": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 9,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 9,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Incline Treadmill",
+      "duration": 20,
+      "avg_hr": 130
+    },
+    "notes": "My tendon is feeling healed today, so I did the regular weight, but chest press felt too heavy. I did a 30 min walk for cardio. ",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-07-10": {
+    "workout_name": "Lower A",
+    "exercises": {
+      "Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 50,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 50,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Leg Press": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 16,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 50,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 50,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Calf Raise": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Abdominal Crunch Machine": [
+        {
+          "set": 1,
+          "weight": 15,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 15,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 15,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Woodchops / Torso Rotations": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Incline Treadmill",
+      "duration": 10,
+      "avg_hr": 130
+    },
+    "notes": "All the exercises the first set was wayyy too easy, I was barely exerting myself, so I upped the weights or reps until I was truely at an 8 RPE. My legs are stronger than my upper body",
+    "total_sets": 14,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-07-11": {
+    "workout_name": "Upper B",
+    "exercises": {
+      "Incline Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Chest-Supported Row Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pec Dec / Chest Fly Machine": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Reverse Pec Dec / Rear Delt Fly": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Overhead Tricep Extension": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Incline Dumbbell or Machine Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "Back muscles really hurt, so I skipped the back half",
+    "total_sets": 10,
+    "soreness_pre": "Medium",
+    "soreness_post": "None",
+    "adaptation_note": "Medium Soreness: Volume reduced by 1 set per exercise"
+  },
+  "2026-07-20": {
+    "workout_name": "Lower B",
+    "exercises": {
+      "Leg Extension Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 18,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 18,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 18,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lying or Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 50,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 50,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 50,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Glute Press / Hip Thrust Machine": [
+        {
+          "set": 1,
+          "weight": 60,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 60,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 60,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Standing Calf Raise": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 13,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pallof Press (Cable)": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Incline Treadmill",
+      "duration": 20,
+      "avg_hr": 130
+    },
+    "notes": "Good session",
+    "total_sets": 15,
+    "soreness_pre": "None",
+    "soreness_post": "Medium",
+    "adaptation_note": ""
+  },
+  "2026-07-22": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "We can let up the deloading, I am completely healed. ",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-07-24": {
+    "workout_name": "Upper B",
+    "exercises": {
+      "Incline Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 10,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 5,
+          "rpe": 10,
+          "notes": "-"
+        }
+      ],
+      "Chest-Supported Row Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pec Dec / Chest Fly Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Reverse Pec Dec / Rear Delt Fly": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Overhead Tricep Extension": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Incline Dumbbell or Machine Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 5,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 5,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Incline Treadmill",
+      "duration": 20,
+      "avg_hr": 130
+    },
+    "notes": "",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-07-27": {
+    "workout_name": "Active Recovery",
+    "exercises": {},
+    "cardio": {
+      "done": true,
+      "type": "Incline Treadmill",
+      "duration": 60,
+      "avg_hr": 100
+    },
+    "notes": "Had stomach pain and diarrhea from last night's dinner, so I just walked for an hour. ",
+    "total_sets": 0,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-07-28": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 10,
+          "rpe": 10,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 10,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 10,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Elliptical",
+      "duration": 20,
+      "avg_hr": 130
+    },
+    "notes": "Good workout ",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-07-29": {
+    "workout_name": "Full Body (Generic)",
+    "exercises": {
+      "Leg Press": [
+        {
+          "set": 1,
+          "weight": 60,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 60,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 60,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Laying Chest Press": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "Power was out yesterday; performed generic full body workout.",
+    "total_sets": 9,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-07-30": {
+    "workout_name": "Lower A",
+    "exercises": {
+      "90/90 Hip Mobility Stretch": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Leg Press": [
+        {
+          "set": 1,
+          "weight": 70,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 70,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 70,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Calf Raise": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 25,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Abdominal Crunch Machine": [
+        {
+          "set": 1,
+          "weight": 15,
+          "reps": 16,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 15,
+          "reps": 16,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 15,
+          "reps": 12,
+          "rpe": 10,
+          "notes": "-"
+        }
+      ],
+      "Cable Woodchops / Torso Rotations": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "Too tired to do cardio, legs hurt little and tired",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-08-04": {
+    "workout_name": "Upper B",
+    "exercises": {
+      "Incline Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 8,
+          "rpe": 10,
+          "notes": "-"
+        }
+      ],
+      "Chest-Supported Row Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 10,
+          "notes": "-"
+        }
+      ],
+      "Pec Dec / Chest Fly Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Reverse Pec Dec / Rear Delt Fly": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Overhead Tricep Extension": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Incline Dumbbell or Machine Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 20,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 20,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Elliptical",
+      "duration": 20,
+      "avg_hr": 130
+    },
+    "notes": "For the bicep curls, I did 10 kg per arm and 10 reps per arm, totalling 20kg and 20 reps total. ",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-08-10": {
+    "workout_name": "Lower B",
+    "exercises": {
+      "Cossack Squat Mobility": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Leg Extension Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lying or Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 50,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 50,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 50,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Glute Press / Hip Thrust Machine": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Standing Calf Raise": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 14,
+          "rpe": 10,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pallof Press (Cable)": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "The glute press I've done before was incorrect, I was doing a seated press, and this new one with the new visual guide implemented, that's why the weight is different. ",
+    "total_sets": 17,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-08-11": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 10,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 10,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "Weights cannot go up by 2.5,they go up by increments of 5. I walked for 2 hours on Sat and 1 hour on sun, and it was painful, especially in the core of my leg muscles, so I'm skimping out on cardio, I can barely walk for 10 min before I have to slow down to barely a stroll to recover. ",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-08-14": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 10,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 45,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 45,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 45,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "I have some deep muscle soreness in my legs, so I did upper body instead of the suggested lower body. I also did a 1 hour walk after working out, my whole body is now sore. This is the last gym day for the rest of the month, maybe I should lighten my workout and let my body recover more long term? ",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "Medium",
+    "adaptation_note": ""
+  },
+  "2026-09-04": {
+    "workout_name": "Lower A",
+    "exercises": {
+      "90/90 Hip Mobility Stretch": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Leg Press": [
+        {
+          "set": 1,
+          "weight": 55,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 55,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 55,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Seated Calf Raise": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Abdominal Crunch Machine": [
+        {
+          "set": 1,
+          "weight": 10,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 10,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 10,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Cable Woodchops / Torso Rotations": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "Did not due cardio because I'm recovering from calf cramp",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-09-07": {
+    "workout_name": "Upper B",
+    "exercises": {
+      "Incline Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Chest-Supported Row Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pec Dec / Chest Fly Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Reverse Pec Dec / Rear Delt Fly": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 0,
+          "rpe": 10,
+          "notes": "-"
+        }
+      ],
+      "Cable Overhead Tricep Extension": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Incline Dumbbell or Machine Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "The weights today were really heavy. My triceps totally failed and hurt, as you can see with the rep count. Aren't I supposed to be on a deload because of the break I took? ",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-09-09": {
+    "workout_name": "Lower B",
+    "exercises": {
+      "Cossack Squat Mobility": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Leg Extension Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 5,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 5,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 5,
+          "notes": "-"
+        }
+      ],
+      "Lying or Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Glute Press / Hip Thrust Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Standing Calf Raise": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Pallof Press (Cable)": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "Didn't workout yesterday cause of rain and no power",
+    "total_sets": 17,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-09-10": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 15,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 15,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 15,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 14,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 14,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 12,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Elliptical",
+      "duration": 10,
+      "avg_hr": 160
+    },
+    "notes": "Weight is light, I think deloading is done? Not 100% sure",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-09-15": {
+    "workout_name": "Lower A",
+    "exercises": {
+      "90/90 Hip Mobility Stretch": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Leg Press": [
+        {
+          "set": 1,
+          "weight": 55,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 55,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 55,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Calf Raise": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Abdominal Crunch Machine": [
+        {
+          "set": 1,
+          "weight": 10,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 10,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 10,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Woodchops / Torso Rotations": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Elliptical",
+      "duration": 20,
+      "avg_hr": 130
+    },
+    "notes": "",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-09-17": {
+    "workout_name": "Upper B",
+    "exercises": {
+      "Incline Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Chest-Supported Row Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pec Dec / Chest Fly Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Reverse Pec Dec / Rear Delt Fly": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Cable Overhead Tricep Extension": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 9,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 9,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Incline Dumbbell or Machine Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-09-22": {
+    "workout_name": "Lower B",
+    "exercises": {
+      "Cossack Squat Mobility": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 0,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Leg Extension Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lying or Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 45,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 45,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 45,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Glute Press / Hip Thrust Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Standing Calf Raise": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pallof Press (Cable)": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 25,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Incline Treadmill",
+      "duration": 20,
+      "avg_hr": 130
+    },
+    "notes": "",
+    "total_sets": 17,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-09-25": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Stationary Bike",
+      "duration": 20,
+      "avg_hr": 150
+    },
+    "notes": "Weights were too light. Increased weight and reps. They final weights were taken for a while so I skipped them. ",
+    "total_sets": 12,
+    "soreness_pre": "None",
+    "soreness_post": "Medium",
+    "adaptation_note": ""
+  },
+  "2026-09-29": {
+    "workout_name": "Lower A",
+    "exercises": {
+      "90/90 Hip Mobility Stretch": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 8,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 8,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Leg Press": [
+        {
+          "set": 1,
+          "weight": 55,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 55,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 55,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Calf Raise": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Abdominal Crunch Machine": [
+        {
+          "set": 1,
+          "weight": 15,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 15,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 15,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Woodchops / Torso Rotations": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Stationary Bike",
+      "duration": 20,
+      "avg_hr": 130
+    },
+    "notes": "I didn't do the calf raises because of the calf soles injury. ",
+    "total_sets": 11,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-09-30": {
+    "workout_name": "Lower B",
+    "exercises": {
+      "Adductor Rock-backs & Hip Mobility": [
+        {
+          "set": 1,
+          "weight": 0,
+          "reps": 10,
+          "rpe": 6,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 0,
+          "reps": 10,
+          "rpe": 6,
+          "notes": "-"
+        }
+      ],
+      "Leg Extension Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lying or Seated Leg Curl": [
+        {
+          "set": 1,
+          "weight": 45,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 45,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 45,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Glute Press / Hip Thrust Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Standing Calf Raise": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 0,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pallof Press (Cable)": [
+        {
+          "set": 1,
+          "weight": 25,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 25,
+          "reps": 14,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "Did not do calf exercise cause of soles injury ",
+    "total_sets": 12,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-10-06": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 11,
+          "rpe": 9,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 40,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40,
+          "reps": 9,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 10,
+          "rpe": 5,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 25,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 7,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": true,
+      "type": "Stationary Bike",
+      "duration": 10,
+      "avg_hr": 140
+    },
+    "notes": "",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-10-07": {
+    "workout_name": "Upper A",
+    "exercises": {
+      "Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 30.0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30.0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30.0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Lat Pulldown (Neutral/Underhand)": [
+        {
+          "set": 1,
+          "weight": 40.0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40.0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40.0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Seated Cable Row": [
+        {
+          "set": 1,
+          "weight": 40.0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 40.0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 40.0,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Shoulder Press Machine": [
+        {
+          "set": 1,
+          "weight": 20.0,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "Dumbbell shoulder lift"
+        },
+        {
+          "set": 2,
+          "weight": 20.0,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "Dumbbell shoulder lift"
+        }
+      ],
+      "Tricep Pushdown (Cable)": [
+        {
+          "set": 1,
+          "weight": 35.0,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35.0,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 35.0,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35.0,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "Conducted Upper A volume due to home power outage cutting web app access.",
+    "total_sets": 15,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  },
+  "2026-10-09": {
+    "workout_name": "Upper B",
+    "exercises": {
+      "Incline Chest Press Machine": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Chest-Supported Row Machine": [
+        {
+          "set": 1,
+          "weight": 35,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 35,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 35,
+          "reps": 8,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Pec Dec / Chest Fly Machine": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 15,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 15,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 30,
+          "reps": 15,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Reverse Pec Dec / Rear Delt Fly": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 12,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 3,
+          "weight": 20,
+          "reps": 13,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Cable Overhead Tricep Extension": [
+        {
+          "set": 1,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ],
+      "Incline Dumbbell or Machine Bicep Curl": [
+        {
+          "set": 1,
+          "weight": 20,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        },
+        {
+          "set": 2,
+          "weight": 20,
+          "reps": 11,
+          "rpe": 8,
+          "notes": "-"
+        }
+      ]
+    },
+    "cardio": {
+      "done": false,
+      "type": "None",
+      "duration": 0,
+      "avg_hr": 0
+    },
+    "notes": "How do i do 11 reps for bicep curls? 5 on the left arm and 6 on the right?? ",
+    "total_sets": 16,
+    "soreness_pre": "None",
+    "soreness_post": "None",
+    "adaptation_note": ""
+  }
+}
