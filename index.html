@@ -1250,6 +1250,23 @@
             }
         }
 
+        function b64ToUtf8(b64) {
+            const cleanB64 = b64.replace(/\s/g, '');
+            const binStr = atob(cleanB64);
+            const bytes = Uint8Array.from(binStr, c => c.charCodeAt(0));
+            return new TextDecoder().decode(bytes);
+        }
+
+        function utf8ToB64(str) {
+            const bytes = new TextEncoder().encode(str);
+            let binStr = "";
+            const chunk = 8192;
+            for (let i = 0; i < bytes.length; i += chunk) {
+                binStr += String.fromCharCode.apply(null, bytes.subarray(i, i + chunk));
+            }
+            return btoa(binStr);
+        }
+
         let isSyncing = false;
         async function syncPendingWorkouts(isManual = false) {
             if (isSyncing) {
@@ -1278,10 +1295,10 @@
             if (btn && isManual) btn.textContent = "Syncing with GitHub...";
 
             try {
-                const repo = 'thejasm/diary';
+                const repo = 'thejasm/fitness-data';
                 const branch = 'main';
 
-                const fileRes = await fetch(`https://api.github.com/repos/${repo}/contents/Personal/Fitness/workout_history.json?ref=${branch}`, {
+                const fileRes = await fetch(`https://api.github.com/repos/${repo}/contents/workout_history.json?ref=${branch}`, {
                     headers: {
                         'Authorization': `Bearer ${pat}`,
                         'Accept': 'application/vnd.github.v3+json'
@@ -1290,7 +1307,7 @@
 
                 if (!fileRes.ok) throw new Error("GitHub fetch error: HTTP " + fileRes.status);
                 const fileData = await fileRes.json();
-                const contentStr = decodeURIComponent(escape(atob(fileData.content.replace(/\s/g, ''))));
+                const contentStr = b64ToUtf8(fileData.content);
                 const remoteHistory = JSON.parse(contentStr);
 
                 let syncCount = 0;
@@ -1318,8 +1335,8 @@
                     return;
                 }
 
-                const updatedBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(remoteHistory, null, 2))));
-                const putRes = await fetch(`https://api.github.com/repos/${repo}/contents/Personal/Fitness/workout_history.json`, {
+                const updatedBase64 = utf8ToB64(JSON.stringify(remoteHistory, null, 2));
+                const putRes = await fetch(`https://api.github.com/repos/${repo}/contents/workout_history.json`, {
                     method: 'PUT',
                     headers: {
                         'Authorization': `Bearer ${pat}`,
@@ -1344,7 +1361,7 @@
                 updateOfflineUI();
                 showToastSummary({
                     title: "🚀 Workouts Synced to GitHub!",
-                    message: `Successfully synchronized ${syncCount} workout(s) to thejasm/diary.`,
+                    message: `Successfully synchronized ${syncCount} workout(s) to ${repo}.`,
                     total_volume: 0,
                     total_sets: 0,
                     prs: []
