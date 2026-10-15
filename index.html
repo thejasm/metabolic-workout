@@ -550,6 +550,7 @@
                 Enables automatic background commits to your private <code>thejasm/diary</code> repository when online.
             </div>
             <button class="btn" id="btn-save-settings" style="margin-top: 0; margin-bottom: 8px;">Save Settings</button>
+            <button class="btn btn-secondary" id="btn-force-sync" style="margin-top: 0; margin-bottom: 8px; border-color: var(--accent); color: var(--accent);">Sync Pending Workouts Now</button>
             <button class="btn btn-secondary" id="btn-export-json" style="margin-top: 0;">Export Workout History JSON</button>
         </div>
     </div>
@@ -681,6 +682,7 @@
             }
             loadSuggestedSplit();
             updateOfflineUI();
+            syncPendingWorkouts();
         }
 
         function getAliases(exName) {
@@ -1333,6 +1335,13 @@
             if (token) localStorage.setItem('gh_pat', token);
             else localStorage.removeItem('gh_pat');
             document.getElementById('modal-settings').classList.add('hidden');
+            syncPendingWorkouts();
+        });
+        document.getElementById('btn-force-sync').addEventListener('click', () => {
+            syncPendingWorkouts();
+            document.getElementById('modal-settings').classList.add('hidden');
+        });
+        document.getElementById('pending-sync-badge').addEventListener('click', () => {
             syncPendingWorkouts();
         });
         document.getElementById('btn-export-json').addEventListener('click', () => {
