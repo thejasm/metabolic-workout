@@ -1251,16 +1251,32 @@
         }
 
         let isSyncing = false;
-        async function syncPendingWorkouts() {
-            if (isSyncing) return;
+        async function syncPendingWorkouts(isManual = false) {
+            if (isSyncing) {
+                if (isManual) alert("Sync is currently in progress...");
+                return;
+            }
             const pat = localStorage.getItem('gh_pat');
-            const queue = JSON.parse(localStorage.getItem('pending_workout_queue') || '[]');
-            if (queue.length === 0 || !navigator.onLine || !pat) {
+            if (!pat) {
+                if (isManual) alert("Please enter and save a GitHub Personal Access Token first.");
                 updateOfflineUI();
                 return;
             }
-            
+            if (!navigator.onLine) {
+                if (isManual) alert("You are currently offline. Please check your internet connection.");
+                updateOfflineUI();
+                return;
+            }
+
+            // Gather items from all queue sources
+            const q1 = JSON.parse(localStorage.getItem('pending_workout_queue') || '[]');
+            const q2 = JSON.parse(localStorage.getItem('pending_github_queue') || '[]');
+            const allQueued = [...q1, ...q2];
+
             isSyncing = true;
+            const btn = document.getElementById('btn-force-sync');
+            if (btn && isManual) btn.textContent = "Syncing with GitHub...";
+
             try {
                 const repo = 'thejasm/diary';
                 const branch = 'main';
@@ -1272,13 +1288,34 @@
                     }
                 });
 
-                if (!fileRes.ok) throw new Error("GitHub error: " + fileRes.status);
+                if (!fileRes.ok) throw new Error("GitHub fetch error: HTTP " + fileRes.status);
                 const fileData = await fileRes.json();
                 const contentStr = decodeURIComponent(escape(atob(fileData.content.replace(/\s/g, ''))));
                 const remoteHistory = JSON.parse(contentStr);
 
-                for (const item of queue) {
-                    remoteHistory[item.date] = item;
+                let syncCount = 0;
+                // 1. Sync from queued items
+                for (const item of allQueued) {
+                    if (item && item.date) {
+                        remoteHistory[item.date] = item;
+                        syncCount++;
+                    }
+                }
+
+                // 2. Also check if local workoutHistory has any dates not yet on remote
+                for (const [d, sess] of Object.entries(workoutHistory)) {
+                    if (!remoteHistory[d] || (sess.total_volume && sess.total_volume > (remoteHistory[d].total_volume || 0))) {
+                        remoteHistory[d] = sess;
+                        syncCount++;
+                    }
+                }
+
+                if (syncCount === 0) {
+                    localStorage.removeItem('pending_workout_queue');
+                    localStorage.removeItem('pending_github_queue');
+                    updateOfflineUI();
+                    if (isManual) alert("✓ All workouts are already up-to-date on GitHub!");
+                    return;
                 }
 
                 const updatedBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(remoteHistory, null, 2))));
@@ -1290,28 +1327,35 @@
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        message: `chore(fitness): sync ${queue.length} workout(s) from PWA`,
+                        message: `chore(fitness): sync ${syncCount} workout(s) from PWA`,
                         content: updatedBase64,
                         sha: fileData.sha,
                         branch: branch
                     })
                 });
 
-                if (putRes.ok) {
-                    localStorage.removeItem('pending_workout_queue');
-                    updateOfflineUI();
-                    showToastSummary({
-                        title: "🚀 Workouts Synced to GitHub!",
-                        message: `Successfully synchronized ${queue.length} workout(s) to thejasm/diary.`,
-                        total_volume: 0,
-                        total_sets: 0,
-                        prs: []
-                    });
+                if (!putRes.ok) {
+                    const errBody = await putRes.text();
+                    throw new Error(`GitHub PUT error: HTTP ${putRes.status} (${errBody})`);
                 }
+
+                localStorage.removeItem('pending_workout_queue');
+                localStorage.removeItem('pending_github_queue');
+                updateOfflineUI();
+                showToastSummary({
+                    title: "🚀 Workouts Synced to GitHub!",
+                    message: `Successfully synchronized ${syncCount} workout(s) to thejasm/diary.`,
+                    total_volume: 0,
+                    total_sets: 0,
+                    prs: []
+                });
+                if (isManual) alert(`✓ Successfully synced ${syncCount} workout(s) to GitHub!`);
             } catch (err) {
-                console.log("GitHub sync attempt skipped:", err);
+                console.error("GitHub sync error:", err);
+                if (isManual) alert("GitHub sync error: " + err.message);
             } finally {
                 isSyncing = false;
+                if (btn) btn.textContent = "Sync Pending Workouts Now";
             }
         }
 
@@ -1335,14 +1379,14 @@
             if (token) localStorage.setItem('gh_pat', token);
             else localStorage.removeItem('gh_pat');
             document.getElementById('modal-settings').classList.add('hidden');
-            syncPendingWorkouts();
+            syncPendingWorkouts(true);
         });
         document.getElementById('btn-force-sync').addEventListener('click', () => {
-            syncPendingWorkouts();
+            syncPendingWorkouts(true);
             document.getElementById('modal-settings').classList.add('hidden');
         });
         document.getElementById('pending-sync-badge').addEventListener('click', () => {
-            syncPendingWorkouts();
+            syncPendingWorkouts(true);
         });
         document.getElementById('btn-export-json').addEventListener('click', () => {
             const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(workoutHistory, null, 2));
