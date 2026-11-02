@@ -475,6 +475,7 @@
             <div id="cardio-details" class="hidden">
                 <label>Cardio Type</label>
                 <select id="cardio-type">
+                    <option value="Outdoor Walk">Outdoor Walk (1 hr)</option>
                     <option value="Incline Treadmill">Incline Treadmill</option>
                     <option value="Stationary Bike">Stationary Bike</option>
                     <option value="Elliptical">Elliptical</option>
@@ -482,11 +483,11 @@
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
                     <div>
                         <label>Duration (mins)</label>
-                        <input type="number" id="cardio-dur" value="20" min="0">
+                        <input type="number" id="cardio-dur" value="60" min="0">
                     </div>
                     <div>
                         <label>Avg Heart Rate (bpm)</label>
-                        <input type="number" id="cardio-hr" value="130" min="0">
+                        <input type="number" id="cardio-hr" value="110" min="0">
                     </div>
                 </div>
             </div>
@@ -899,6 +900,26 @@
                 cardioDetails.classList.remove('hidden');
             } else {
                 cardioDetails.classList.add('hidden');
+            }
+        });
+
+        // Auto-populate recommended duration/HR based on cardio modality
+        const cardioTypeSelect = document.getElementById('cardio-type');
+        const cardioDurInput = document.getElementById('cardio-dur');
+        const cardioHrInput = document.getElementById('cardio-hr');
+        cardioTypeSelect.addEventListener('change', () => {
+            if (cardioTypeSelect.value === 'Outdoor Walk') {
+                cardioDurInput.value = '60';
+                cardioHrInput.value = '110';
+            } else if (cardioTypeSelect.value === 'Incline Treadmill') {
+                cardioDurInput.value = '20';
+                cardioHrInput.value = '125';
+            } else if (cardioTypeSelect.value === 'Stationary Bike') {
+                cardioDurInput.value = '20';
+                cardioHrInput.value = '130';
+            } else if (cardioTypeSelect.value === 'Elliptical') {
+                cardioDurInput.value = '20';
+                cardioHrInput.value = '130';
             }
         });
 
