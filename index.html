@@ -884,8 +884,27 @@
             document.getElementById('rest-timer-bar').classList.add('hidden');
         }
 
+        function getTodayLocalDateStr() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+
         // Initialize elements
-        document.getElementById('workout-date').valueAsDate = new Date();
+        document.getElementById('workout-date').value = getTodayLocalDateStr();
+
+        // Ensure date stays current whenever returning to app from background
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible') {
+                const stepSelect = document.getElementById('step-select');
+                if (stepSelect && !stepSelect.classList.contains('hidden')) {
+                    document.getElementById('workout-date').value = getTodayLocalDateStr();
+                    if (typeof loadSuggestedSplit === 'function') loadSuggestedSplit();
+                }
+            }
+        });
 
         const stepSelect = document.getElementById('step-select');
         const workoutForm = document.getElementById('workout-form');
@@ -1178,7 +1197,7 @@
             cardioDone.checked = false;
             cardioDetails.classList.add('hidden');
             document.getElementById('session-notes').value = '';
-            document.getElementById('workout-date').valueAsDate = new Date();
+            document.getElementById('workout-date').value = getTodayLocalDateStr();
             document.getElementById('workout-soreness').value = "1";
             document.getElementById('post-soreness').value = "1";
             document.getElementById('adaptation-alert').classList.add('hidden');
