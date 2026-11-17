@@ -894,9 +894,13 @@
         // Ensure date stays current whenever returning to app from background
         document.addEventListener('visibilitychange', () => {
             if (document.visibilityState === 'visible') {
+                const todayStr = getTodayLocalDateStr();
+                const dateInput = document.getElementById('workout-date');
+                if (dateInput && (!dateInput.value || dateInput.value < todayStr)) {
+                    dateInput.value = todayStr;
+                }
                 const stepSelect = document.getElementById('step-select');
                 if (stepSelect && !stepSelect.classList.contains('hidden')) {
-                    document.getElementById('workout-date').value = getTodayLocalDateStr();
                     if (typeof loadSuggestedSplit === 'function') loadSuggestedSplit();
                 }
             }
@@ -940,6 +944,11 @@
 
         // Start workout button handler
         document.getElementById('btn-start').addEventListener('click', async () => {
+            const todayStr = getTodayLocalDateStr();
+            const dateInput = document.getElementById('workout-date');
+            if (dateInput && (!dateInput.value || dateInput.value < todayStr)) {
+                dateInput.value = todayStr;
+            }
             const splitId = document.getElementById('workout-split').value;
             const split = WORKOUTS[splitId];
             
