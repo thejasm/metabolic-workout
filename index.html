@@ -891,20 +891,26 @@
         // Initialize elements
         document.getElementById('workout-date').value = getTodayLocalDateStr();
 
-        // Ensure date stays current whenever returning to app from background
+        // Ensure date stays current whenever returning to app from background or regaining focus
+        function refreshDateIfStale() {
+            const todayStr = getTodayLocalDateStr();
+            const dateInput = document.getElementById('workout-date');
+            if (dateInput && (!dateInput.value || dateInput.value < todayStr)) {
+                dateInput.value = todayStr;
+            }
+            const stepSelect = document.getElementById('step-select');
+            if (stepSelect && !stepSelect.classList.contains('hidden')) {
+                if (typeof loadSuggestedSplit === 'function') loadSuggestedSplit();
+            }
+        }
+
         document.addEventListener('visibilitychange', () => {
             if (document.visibilityState === 'visible') {
-                const todayStr = getTodayLocalDateStr();
-                const dateInput = document.getElementById('workout-date');
-                if (dateInput && (!dateInput.value || dateInput.value < todayStr)) {
-                    dateInput.value = todayStr;
-                }
-                const stepSelect = document.getElementById('step-select');
-                if (stepSelect && !stepSelect.classList.contains('hidden')) {
-                    if (typeof loadSuggestedSplit === 'function') loadSuggestedSplit();
-                }
+                refreshDateIfStale();
             }
         });
+        window.addEventListener('focus', refreshDateIfStale);
+        window.addEventListener('pageshow', refreshDateIfStale);
 
         const stepSelect = document.getElementById('step-select');
         const workoutForm = document.getElementById('workout-form');
@@ -1366,7 +1372,7 @@
 
                 // 2. Also check if local workoutHistory has any dates not yet on remote
                 for (const [d, sess] of Object.entries(workoutHistory)) {
-                    if (!remoteHistory[d] || (sess.total_volume && sess.total_volume > (remoteHistory[d].total_volume || 0))) {
+                    if (!remoteHistory[d]) {
                         remoteHistory[d] = sess;
                         syncCount++;
                     }
@@ -1375,6 +1381,9 @@
                 if (syncCount === 0) {
                     localStorage.removeItem('pending_workout_queue');
                     localStorage.removeItem('pending_github_queue');
+                    // Always propagate canonical remote state back into local storage
+                    workoutHistory = remoteHistory;
+                    localStorage.setItem('workout_history', JSON.stringify(workoutHistory));
                     updateOfflineUI();
                     if (isManual) alert("✓ All workouts are already up-to-date on GitHub!");
                     return;
@@ -1403,6 +1412,9 @@
 
                 localStorage.removeItem('pending_workout_queue');
                 localStorage.removeItem('pending_github_queue');
+                // Always propagate canonical remote state back into local storage
+                workoutHistory = remoteHistory;
+                localStorage.setItem('workout_history', JSON.stringify(workoutHistory));
                 updateOfflineUI();
                 showToastSummary({
                     title: "🚀 Workouts Synced to GitHub!",
